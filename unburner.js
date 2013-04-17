@@ -1,4 +1,4 @@
-var r = /(^http.*)(\?+utm_source=feedburner[^#]*)(#?.*)/ig;
+var r = /(^http.*)(\?+utm_source=feedly[^#]*)(#?.*)/ig;
 var url = document.location.href;
 var matches = r.exec(url);
 if (matches !== null) {
